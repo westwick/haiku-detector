@@ -2,7 +2,8 @@
   "name": "haiku-detector",
   "version": "0.0.1",
   "description": "A cool slack bot that will find hidden haikus in your slack messages",
-  "main": "index.js",
+  "author": "Andrew Westwick <awestwick@gmail.com>",
+  "main": "lib/slackbot.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -11,8 +12,14 @@
     "slackbot",
     "haiku"
   ],
-  "author": "Andrew Westwick <awestwick@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/westwick/haiku-detector"
+  },
+  "bugs": {
+    "url": "https://github.com/westwick/haiku-detector/issues"
+  },
   "dependencies": {
     "lodash": "^4.17.5",
     "nlp-syllables-async": "^0.1.2",
