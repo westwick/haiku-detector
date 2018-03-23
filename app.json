@@ -1,0 +1,27 @@
+{  
+  "name": "haiku-detector",
+  "description": "A cool slack bot that will find hidden haikus in your slack messages",
+  "keywords": [
+      "node",
+      "nodejs",
+      "haiku",
+      "slack",
+      "slackbot"
+  ],
+  "repository": "https://github.com/westwick/haiku-detector",
+  "website": "https://github.com/westwick/haiku-detector",
+  "env": {
+    "BOT_API_TOKEN": {
+        "description": "API Token for your Slack integration",
+        "value": ""
+    },
+    "BOT_NAME": {
+        "description": "Customize your bot's name",
+        "value": "haiku-detector"
+    }
+  },
+  "formation": [
+      { "process": "web",    "quantity": 0},
+      { "process": "worker", "quantity": 1}
+  ]
+}
