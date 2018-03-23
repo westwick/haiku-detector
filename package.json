@@ -1,6 +1,6 @@
 {
   "name": "haiku-detector",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A cool slack bot that will find hidden haikus in your slack messages",
   "author": "Andrew Westwick <awestwick@gmail.com>",
   "main": "lib/slackbot.js",
