@@ -5,7 +5,7 @@
   "author": "Andrew Westwick <awestwick@gmail.com>",
   "main": "lib/slackbot.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/run.js"
   },
   "keywords": [
     "slack",
